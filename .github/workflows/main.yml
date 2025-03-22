@@ -11,7 +11,7 @@ jobs:
        - run: echo "Obter Código"
        - run: echo "Executar  o Docker Build"
        - run: echo "Enviar a imagem Docker para o Docker Hub"
-  CD:
+   CD:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Obter Código"
